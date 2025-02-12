@@ -19,8 +19,11 @@ public class Employe {
 
 	// Méthode pour afficher les infos
 	public void afficher() {
-		int age = calculAge(2024); // Utilisation de la méthode ici
-		System.out.println("Nom : " + nom + ", Âge : " + age + " ans, Salaire : " + salaire);
+		int anneeActuelle = 2024; // Valeur fixe pour l'exemple
+		int age = calculAge(anneeActuelle); // Utilisation de la méthode ici
+
+		System.out.println("Nom : " + nom + ", Année de naissance : " + anneeNaissance +
+				", Âge : " + age + " ans, Salaire : " + salaire);
 	}
 
 	// Getter pour le salaire
