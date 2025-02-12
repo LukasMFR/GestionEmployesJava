@@ -22,8 +22,8 @@ public class Employe {
 		int anneeActuelle = 2024; // Valeur fixe pour l'exemple
 		int age = calculAge(anneeActuelle); // Utilisation de la méthode ici
 
-		System.out.println("Nom : " + nom + ", Année de naissance : " + anneeNaissance +
-				", Âge : " + age + " ans, Salaire : " + salaire);
+		System.out.println("Nom : " + nom + ", Année de naissance : " + anneeNaissance + ", Âge : " + age
+				+ " ans, Salaire : " + salaire);
 	}
 
 	// Getter pour le salaire
