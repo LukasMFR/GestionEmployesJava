@@ -19,10 +19,11 @@ public class Employe {
 
 	// Méthode pour afficher les infos
 	public void afficher() {
-		System.out.println("Nom : " + nom + ", Année de naissance : " + anneeNaissance + ", Salaire : " + salaire);
+		int age = calculAge(2024); // Utilisation de la méthode ici
+		System.out.println("Nom : " + nom + ", Âge : " + age + " ans, Salaire : " + salaire);
 	}
 
-	// Getter pour le salaire (utile pour l'héritage)
+	// Getter pour le salaire
 	public double getSalaire() {
 		return salaire;
 	}
